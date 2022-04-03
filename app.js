@@ -50,7 +50,7 @@ const setData = (e, output) => {
                         <img src="images/icon-ellipsis.svg" alt="#" class="elip">
                     </div>
                     <h1 class="tto num1">${el.timeframes.daily.current}hrs</h1>
-                <p class="tto num2">Last weekly - ${el.timeframes.daily.previous}hrs</p>
+                <p class="tto num2">Last week - ${el.timeframes.daily.previous}hrs</p>
             </div>
         </div>
     `
@@ -80,7 +80,7 @@ const setDaily = (e) => {
                         <img src="images/icon-ellipsis.svg" alt="#" class="elip">
                     </div>
                     <h1 class="tto num1">${el.timeframes.daily.current}hrs</h1>
-                <p class="tto num2">Last weekly - ${el.timeframes.daily.previous}hrs</p>
+                <p class="tto num2">Last week - ${el.timeframes.daily.previous}hrs</p>
             </div>
         </div>
             `
@@ -110,7 +110,7 @@ const setWeekly = (e) => {
                     <img src="images/icon-ellipsis.svg" alt="#" class="elip">
                 </div>
                 <h1 class="tto num1">${el.timeframes.weekly.current}hrs</h1>
-            <p class="tto num2">Last weekly - ${el.timeframes.weekly.previous}hrs</p>
+            <p class="tto num2">Last week - ${el.timeframes.weekly.previous}hrs</p>
         </div>
     </div>
         `
@@ -141,7 +141,7 @@ const setMonthly = (e) => {
                 <img src="images/icon-ellipsis.svg" alt="#" class="elip">
             </div>
             <h1 class="tto num1">${el.timeframes.monthly.current}hrs</h1>
-        <p class="tto num2">Last weekly - ${el.timeframes.monthly.previous}hrs</p>
+        <p class="tto num2">Last week - ${el.timeframes.monthly.previous}hrs</p>
     </div>
 </div>
     `
